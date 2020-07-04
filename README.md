@@ -15,7 +15,7 @@ if not set.
 
 ## Cheers to
 
-Many parts of this software are copied from othe projects. Most of all:
+Many parts of this software are copied from other projects. Most of all:
 * https://github.com/golang/vscode-go
 * https://github.com/RoyalMist/vscode-eex-format
 
