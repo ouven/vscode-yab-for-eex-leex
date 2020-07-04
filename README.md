@@ -1,11 +1,15 @@
 # YAB for eex/leex README
 
-This is the README for your extension "YAB for eex/leex". After writing up a brief description, we recommend including the following sections.
+"Yet another beautifier" for elixir eex/leex html templates. Like others it utilizes htmlbeautifier. The
+diffrence is, it can format without saving the file first.
+
+`htmlbeautifier` needs language settings to be set in the environment to handle utf-8 charsets - like umlauts.
+On Macs the LC_* environment variables are not set by default. This extension will set them to `en_US.UTF-8`
+if not set.
 
 ## Features
 
 * Formats eex / leex files without saving or producing tmp files.
-* htmlbeautifier needs language settings to be set to handle utf-8 charsets - like umlauts. On Macs the LC_* environment variables are not set by default. This extension will set them to `en_US.UTF-8` if not set.
 
 ## Cheers to
 
@@ -30,3 +34,4 @@ gem install htmlbeautifier
 | `vscode-yab-for-eex-leex.indentBy`       | Indent the output by NUMBER steps                     | 0       |
 | `vscode-yab-for-eex-leex.stopOnErrors`   | Stop when invalid nesting is encountered in the input | false   |
 | `vscode-yab-for-eex-leex.keepBlankLines` | Set number of consecutive blank lines                 | 0       |
+
