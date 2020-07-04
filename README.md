@@ -11,11 +11,13 @@ if not set.
 
 * Formats eex / leex files without saving or producing tmp files.
 
+[Demo GIF](https://raw.githubusercontent.com/ouven/vscode-yab-for-eex-leex/master/images/demo.gif)
+
 ## Cheers to
 
 Many parts of this software are copied from othe projects. Most of all:
 * https://github.com/golang/vscode-go
-* https://github.com/aliariff/vscode-erb-beautify
+* https://github.com/RoyalMist/vscode-eex-format
 
 ## Requirements
 

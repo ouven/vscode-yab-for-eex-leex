@@ -2,7 +2,8 @@
 	"name": "vscode-yab-for-eex-leex",
 	"displayName": "YAB for eex/leex",
 	"description": "Yet another beautifer/formatter for leex and eex files.",
-	"version": "1.0.0",
+    "version": "1.0.0",
+    "icon": "images/logo.png",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
