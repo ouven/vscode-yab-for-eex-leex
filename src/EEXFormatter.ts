@@ -97,7 +97,7 @@ export class EEXFormattingEditProvider implements vscode.DocumentFormattingEditP
     }
 
     private cli_options() {
-        const config = vscode.workspace.getConfiguration("vscode-erb-beautify")
+        const config = vscode.workspace.getConfiguration("vscode-yab-for-eex-leex")
         const acc: string[] = []
         return Object.keys(config).reduce(function (acc, key) {
             switch (key) {
