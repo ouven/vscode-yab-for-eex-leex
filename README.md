@@ -21,8 +21,13 @@ Many parts of this software are copied from other projects. Most of all:
 
 ## Requirements
 
+You have to build and use custom version of htmlbeautifier which handles Embedded Elixir better:
+
 ```
-gem install htmlbeautifier
+$ git clone git@github.com:kelostrada/htmlbeautifier.git
+$ cd htmlbeautifier
+$ gem build htmlbeautifier
+$ sudo gem install htmlbeautifier-1.4.0.gem
 ```
 
 ## Extension Settings
