@@ -94,7 +94,7 @@ class EEXFormattingEditProvider {
                     break;
             }
             return acc;
-        }, acc);
+        }, ["--engine", "eex"]);
     }
 }
 exports.EEXFormattingEditProvider = EEXFormattingEditProvider;
