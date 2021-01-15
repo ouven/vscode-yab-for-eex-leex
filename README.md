@@ -1,7 +1,7 @@
 # YAB for eex/leex README
 
 "Yet another beautifier" for elixir eex/leex html templates. Like others it utilizes htmlbeautifier. The
-diffrence is, it can format without saving the file first.
+difference is, it can format without saving the file first.
 
 `htmlbeautifier` needs language settings to be set in the environment to handle utf-8 charsets - like umlauts.
 On Macs the LC_* environment variables are not set by default. This extension will set them to `en_US.UTF-8`
