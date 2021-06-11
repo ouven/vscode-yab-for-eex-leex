@@ -1,28 +1,28 @@
 {
-	"name": "vscode-yab-for-eex-leex",
-	"displayName": "YAB for eex/leex",
-	"description": "Yet another beautifer/formatter for leex and eex files.",
+    "name": "vscode-yab-for-eex-leex",
+    "displayName": "YAB for eex/leex",
+    "description": "Yet another beautifer/formatter for leex and eex files.",
     "version": "1.0.3",
     "icon": "images/logo.png",
-	"engines": {
-		"vscode": "^1.46.0"
-	},
-	"publisher": "ouven",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "publisher": "ouven",
     "license": "MIT",
     "bugs": "https://github.com/ouven/vscode-yab-for-eex-leex/issues",
     "repository": {
         "type": "git",
         "url": "https://github.com/ouven/vscode-yab-for-eex-leex"
     },
-	"categories": [
-		"Formatters"
-	],
-	"activationEvents": [
-		"onLanguage:html-eex"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"languages": [
+    "categories": [
+        "Formatters"
+    ],
+    "activationEvents": [
+        "onLanguage:html-eex"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "languages": [
             {
                 "id": "html-eex",
                 "aliases": [
@@ -33,8 +33,8 @@
                     ".html.leex"
                 ]
             }
-		],
-		"configuration": {
+        ],
+        "configuration": {
             "type": "object",
             "title": "VSCode YAB for eex/leex configuration",
             "properties": {
@@ -65,26 +65,26 @@
                 }
             }
         }
-	},
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"lint": "eslint src --ext ts",
-		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile && npm run lint",
-		"test": "node ./out/test/runTest.js"
-	},
-	"devDependencies": {
-		"@types/glob": "^7.1.1",
-		"@types/mocha": "^7.0.2",
-		"@types/node": "^13.11.0",
-		"@types/vscode": "^1.46.0",
-		"@typescript-eslint/eslint-plugin": "^3.5.0",
-		"@typescript-eslint/parser": "^3.5.0",
-		"eslint": "^7.4.0",
-		"glob": "^7.1.6",
-		"mocha": "^7.1.2",
-		"typescript": "^3.8.3",
-		"vscode-test": "^1.3.0"
-	}
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "eslint src --ext ts",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "test": "node ./out/test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.1.1",
+        "@types/mocha": "^7.0.2",
+        "@types/node": "^13.11.0",
+        "@types/vscode": "^1.46.0",
+        "@typescript-eslint/eslint-plugin": "^3.5.0",
+        "@typescript-eslint/parser": "^3.5.0",
+        "eslint": "^7.4.0",
+        "glob": "^7.1.6",
+        "mocha": "^7.1.2",
+        "typescript": "^3.8.3",
+        "vscode-test": "^1.3.0"
+    }
 }
