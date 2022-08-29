@@ -1,5 +1,8 @@
 # YAB for eex/leex README
 
+> **Warning**
+> This extension is deprecated in favour of the heex formatter, that is shipped with live view
+
 "Yet another beautifier" for elixir eex/leex html templates. Like others it utilizes htmlbeautifier. The
 difference is, it can format without saving the file first.
 
